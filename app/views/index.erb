@@ -1,0 +1,8 @@
+
+<h1>Post Titles and their Content</h1>
+
+<% @posts.map do |pst| %>
+<h2>Post Title: <h2> <%= pst.name %> <br>
+
+<h2>Post Content: </h2> <%= pst.content %><br>
+<% end %><br><br>
