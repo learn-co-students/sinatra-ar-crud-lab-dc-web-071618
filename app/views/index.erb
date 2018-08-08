@@ -1,0 +1,9 @@
+<!-- show a list of posts-->
+<h1>All My Posts</h1>
+
+<% @posts.all.each do |post| %>
+  <div class="post">
+    <p><%= post.name%> </p>
+    <p><%= post.content %></p>
+  </div>
+<% end %>
